@@ -1,0 +1,8 @@
+.search-body {
+  margin: 5rem auto;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}

@@ -1,0 +1,51 @@
+.roomCard {
+  height: 15rem;
+  width: 15rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s;
+  position: relative;
+  overflow: hidden;
+}
+
+.roomCard:hover {
+  transform: scale(105%);
+}
+
+.card-image {
+  height: 27rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 15rem;
+  width: 100%;
+  bottom: 1rem;
+  padding: .6rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.image-container {
+  position: relative;
+
+}
+
+.discount {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  background-color: gray;
+  padding: .3rem .5rem;
+  border-radius: .5rem;
+  font-weight: bold;
+  color: white;
+  font-size: .6rem;
+}

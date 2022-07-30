@@ -1,0 +1,72 @@
+.home-search {
+  height: 4rem;
+  width: 80%;
+  margin: 3rem auto;
+  background-color: white;
+  border-radius: .2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.home-search>div {
+  font-weight: bold;
+  color: rgb(78, 78, 78);
+}
+
+.home-search-button {
+  background-color: black;
+  height: 100%;
+  color: white !important;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 1rem;
+  border-radius: 0 .2rem .2rem 0;
+  cursor: pointer;
+}
+
+
+.date-picker input {
+  border: none;
+  outline: none;
+  font-size: 1rem
+}
+
+.search-select {
+  border: none;
+  width: 2.2rem;
+  font-weight: lighter;
+  font-size: 1rem;
+  color: rgb(89, 88, 88);
+
+}
+
+.search-select:focus {
+  border: none;
+  outline: none;
+}
+
+.room-select {
+  font-weight: lighter !important;
+  color: rgb(89, 88, 88);
+
+}
+
+.search-input {
+  border: 0;
+  font-size: 1rem;
+  width: 5rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-details-body {
+  margin: 0 10vw;
+}

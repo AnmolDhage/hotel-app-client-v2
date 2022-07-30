@@ -1,0 +1,85 @@
+.avatar {
+  width: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.nav-shadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 5px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 1rem 10rem;
+}
+
+
+li {
+  cursor: pointer;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+.li-link {
+  text-decoration: none;
+  color: black;
+}
+
+.account-dropdown {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: max-content;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: .5rem;
+  background-color: white;
+  z-index: 100;
+  border-radius: .5rem;
+}
+
+
+.account-dropdown-inactive {
+  display: none;
+}
+
+.account-buttons {
+  width: 100%;
+  margin-top: 1rem;
+  padding: .5rem 0;
+  cursor: pointer;
+  border-radius: .5rem;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+}
+
+.not-signed-in {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}

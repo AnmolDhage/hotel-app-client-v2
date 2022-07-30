@@ -1,0 +1,11 @@
+.recommended-rooms-container {
+  margin-top: 5rem;
+}
+
+
+.recommended-rooms-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
