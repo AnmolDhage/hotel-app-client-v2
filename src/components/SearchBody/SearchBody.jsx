@@ -7,7 +7,7 @@ const SearchBody = ({ data }) => {
 
   return (
     <div className="search-body">
-      {data.map(hotel =>
+      {data?.map(hotel =>
         < RoomCard data={hotel} type="single" />
       )}
     </div>

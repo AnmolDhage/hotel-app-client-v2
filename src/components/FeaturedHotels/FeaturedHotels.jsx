@@ -21,7 +21,7 @@ const FeaturedHotels = () => {
 
       <div className="recommended-rooms-cards">
         {loading ? <h1>Loading...</h1> : data &&
-          data.map(hotel => <RoomCard key={hotel._id} data={hotel} type="single" />)
+          data?.map(hotel => <RoomCard key={hotel._id} data={hotel} type="single" />)
         }
 
       </div>

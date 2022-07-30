@@ -16,7 +16,7 @@ const HotelsByCity = () => {
       />
 
       <div className="recommended-rooms-cards">
-        {loading ? <h1>Loading...</h1> : data && data.map((type, index) => <RoomCard key={index} data={type} type="type" />)}
+        {loading ? <h1>Loading...</h1> : data && data?.map((type, index) => <RoomCard key={index} data={type} type="type" />)}
       </div>
 
     </div>

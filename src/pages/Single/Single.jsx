@@ -233,7 +233,7 @@ const Single = () => {
             <div className="line"></div>
             <div className="bill">
               <div className="selected-rooms">
-                {rooms.map((r, index) => {
+                {rooms?.map((r, index) => {
                   total += r[1];
                   return <div >
                     <div style={{ display: 'flex', gap: '0.3rem' }}>

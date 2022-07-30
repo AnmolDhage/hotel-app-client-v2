@@ -39,7 +39,7 @@ const Booking = ({ data, reFetch }) => {
         <div >
           <span className="booking-card-title">Rooms : </span>
           <div className="booking-card-rooms">
-            {data?.Rooms.map(room =>
+            {data?.Rooms?.map(room =>
 
               <div className="room-data">
                 <div >{room[0]}</div>

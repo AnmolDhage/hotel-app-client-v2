@@ -8,11 +8,11 @@ const Room = ({ id, rooms, setRooms }) => {
   }
   return (
     <div className="rooms">
-      {loading ? "Loading..." : data && data.map(rm => {
+      {loading ? "Loading..." : data && data?.map(rm => {
 
 
         return (
-          rm.roomNumbers.map(room => <div onClick={e => handleRoomClick(rm)} className="room-data">
+          rm.roomNumbers?.map(room => <div onClick={e => handleRoomClick(rm)} className="room-data">
             <div >{rm?.title}</div>
             <div style={{ fontSize: ".9rem", color: "gray" }}>{rm.desc}</div>
             <div style={{ fontSize: ".9rem", color: "gray" }}>Max People: {rm.maxPeople}</div>

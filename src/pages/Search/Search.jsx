@@ -26,7 +26,7 @@ const Search = () => {
         setDestination={setDestination}
       />
       <div className="search-details-body">
-        {loading ? "Loading..." : data && data.map(hotel =>
+        {loading ? "Loading..." : data && data?.map(hotel =>
           <DetailCard data={hotel} key={hotel._id} />
         )}
       </div>
